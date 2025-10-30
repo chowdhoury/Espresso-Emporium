@@ -17,7 +17,7 @@ const Footer = () => {
             <span className="text-[45px] text-[#331A15]mt-6 mb-8">
               Espresso Emporium
             </span>
-            <p className="text-xl text-[#1B1A1A] leading-8 max-w-[663px]">
+            <p className="text-xl text-[#1B1A1A] leading-8 max-w-[663px] raleway">
               Always ready to be your friend. Come & Contact with us to share
               your memorable moments, to share with your best companion.
             </p>
@@ -30,17 +30,19 @@ const Footer = () => {
             <span className="text-[45px] text-[#331A15]mt-6 mb-8">
               Get in Touch
             </span>
-            <div className="flex text-xl text-[#1B1A1A] mb-2">
+            <div className="flex text-xl text-[#1B1A1A] mb-2 raleway gap-2">
               <FaPhone></FaPhone>{" "}
               <span className="text-[#1B1A1A]">+1 234 567 890</span>
             </div>
-            <div className="flex text-xl text-[#1B1A1A] mb-2">
+            <div className="flex gap-2 text-xl text-[#1B1A1A] mb-2 raleway">
               <FaEnvelope></FaEnvelope>{" "}
-              <span className="text-[#1B1A1A]">info@espressoemporium.com</span>
+              <span className="text-[#1B1A1A] raleway">
+                info@espressoemporium.com
+              </span>
             </div>
-            <div className="flex text-xl text-[#1B1A1A] ">
+            <div className="flex text-xl text-[#1B1A1A] gap-2 ">
               <FaMapMarkerAlt></FaMapMarkerAlt>{" "}
-              <span className="text-[#1B1A1A]">
+              <span className="text-[#1B1A1A] raleway">
                 123 Coffee St, Espresso City
               </span>
             </div>
@@ -51,7 +53,7 @@ const Footer = () => {
             </span>
             <form>
               <input
-                className="bg-white w-[503px] h-[50px] p-3"
+                className="bg-white w-[503px] h-[50px] p-3 raleway"
                 type="text"
                 name="name"
                 id=""
@@ -59,7 +61,7 @@ const Footer = () => {
               />
               <br />
               <input
-                className="bg-white w-[503px] h-[50px] my-2 p-3"
+                className="bg-white w-[503px] h-[50px] my-2 p-3 raleway"
                 type="email"
                 name="email"
                 id=""
@@ -67,7 +69,7 @@ const Footer = () => {
               />
               <br />
               <textarea
-                className="bg-white w-[503px] resize-none p-3"
+                className="bg-white w-[503px] resize-none p-3 raleway"
                 name="message"
                 id=""
                 cols="30"
